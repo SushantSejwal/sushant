@@ -129,6 +129,10 @@ h1 {
     padding: 10px;
 }
 
+.ds-position-table-2-text p {
+    padding-top: 20px;
+}
+
 /* =============== Binary Number System =============== */
 
 .binary-number-system {
