@@ -1,0 +1,1723 @@
+body {
+    min-width: 350px;
+    margin: auto;
+    -webkit-tap-highlight-color: transparent;
+    background: #264653;
+}
+
+p {
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "uni-sans-heavy-caps";
+}
+
+/* ========== Number System ========== */
+
+.Number-System {
+    margin: auto auto auto auto;
+    padding-bottom: 20px;
+    max-width: 1920px;
+    background: #264653;
+
+}
+
+/* =============== Number System Heading =============== */
+
+.number-system-heading {
+    background: linear-gradient(45deg, #08213f 0%, hsla(203, 43%, 21%, 1) 25%, hsla(203, 43%, 21%, 1) 50%, hsla(203, 43%, 21%, 1) 75%, hsla(213, 77%, 14%, 1) 100%);
+    text-align: center;
+    font-size: 55px;
+    padding: 114px 60px 60px 60px;
+    color: rgb(243, 243, 243);
+}
+
+.number-system-heading h1 {
+    font-family: "bazooka";
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+/* =============== Number System Introduction =============== */
+
+.ns-explanation-main {
+    background-color: #fcfcfc;
+    box-shadow: inset 0px 0px 10px 2px #228176;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.ns-heading {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.6rem
+}
+
+.ns-heading h1 {
+    font-weight: 800;
+}
+
+.ns-explanation p {
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+.ns-explanation-list {
+    margin: 15px 0px;
+}
+
+.ns-explanation-list p {
+    padding: 0px;
+}
+
+/* =============== Types of Number System =============== */
+
+.ns-types-text {
+    background-color: #fcfcfc;
+    box-shadow: inset 0px 0px 10px 2px #228176;
+    padding: 20px;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.ns-types-text-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px 15px 25px 15px;
+}
+
+.ns-types-text-heading h1 {
+    font-weight: 800;
+}
+
+/* =============== Decimal Number System =============== */
+
+.decimal-system {
+    margin: 20px 0px;
+    background-color: #fcfcfc;
+    box-shadow: inset 0px 0px 10px 2px #228176;
+}
+
+.ds-heading {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.ds-heading h1 {
+    font-weight: 800;
+}
+
+.ds-explanation {
+    padding: 20px;
+}
+
+.ds-text {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.ds-position-table-1 {
+    padding: 10px;
+}
+
+.ds-position-table-2-table {
+    padding: 10px;
+}
+
+/* =============== Binary Number System =============== */
+
+.binary-number-system {
+    background-color: #fcfcfc;
+    box-shadow: inset 0px 0px 10px 2px #228176;
+    margin: 20px 0px;
+}
+
+.bs-heading {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.bs-heading h1 {
+    font-weight: 800;
+}
+
+.bs-explanation {
+    padding: 20px;
+}
+
+.bs-text {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.bs-positional-value-table {
+    padding: 10px 10px;
+}
+
+.bs-positional-value-text {
+    padding: 10px 0px;
+}
+
+/* =============== Octal Number System =============== */
+
+.octal-number-system {
+    background-color: #fcfcfc;
+    box-shadow: inset 0px 0px 10px 2px #228176;
+    margin: 20px 0px;
+}
+
+.os-heading {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.os-heading h1 {
+    font-weight: 800;
+}
+
+.os-explanation {
+    padding: 20px;
+}
+
+.os-text {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.os-position-value-table {
+    padding: 10px 10px;
+}
+
+.os-position-value-text {
+    padding: 10px 0px;
+}
+
+/* =============== Hexadecimal Number System =============== */
+
+.hexadecimal-number-system {
+    background-color: #fcfcfc;
+    box-shadow: inset 0px 0px 10px 2px #228176;
+    margin: 20px 0px;
+}
+
+.hs-heading {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.hs-heading h1 {
+    font-weight: 800;
+}
+
+.hs-explanation {
+    padding: 20px;
+}
+
+.hs-text {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.hs-position-value-table {
+    padding: 10px 10px;
+}
+
+.hs-position-value-text {
+    padding: 10px 0px;
+}
+
+.applications-of-hexadecimal-numbers {
+    padding: 5px;
+}
+
+.applications-of-hexadecimal-numbers-heading {
+    text-align: center;
+    font-size: 1.35rem;
+    padding: 10px;
+}
+
+.applications-of-hexadecimal-numbers-heading h1 {
+    font-weight: 700;
+    margin: 10px 10px 5px 10px;
+}
+
+.applications-of-hexadecimal-numbers-point-1 {
+    margin: 10px 0px;
+}
+
+.applications-of-hexadecimal-numbers-point-1 p {
+    padding: 2px;
+    font-size: 18px;
+}
+
+.applications-of-hexadecimal-numbers-point-2 {
+    margin: 10px 0px;
+}
+
+.applications-of-hexadecimal-numbers-point-2 p {
+    padding: 2px;
+    font-size: 18px;
+}
+
+
+/* =============== Number System Conversion =============== */
+
+.number-system-conversion-introduction {
+    background-color: #fcfcfc;
+    box-shadow: inset 0px 0px 10px 2px #228176;
+    margin: 20px 0px;
+}
+
+.number-system-conversion-heading {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.number-system-conversion-heading h1 {
+    font-weight: 800;
+}
+
+.number-system-conversion-explanation {
+    margin: 0px 20px 20px 20px;
+}
+
+.number-system-conversion-explanantion-text {
+    padding: 5px 0px;
+}
+
+.number-system-conversion-categories-text p {
+    margin: 20px 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.number-system-conversion-categories-1 {
+    padding: 10px 10px;
+}
+
+.number-system-conversion-categories-2 {
+    padding: 10px 10px;
+}
+
+.number-system-conversion-categories-3 {
+    padding: 10px 10px;
+    padding-bottom: 25px;
+}
+
+/* =============== Decimal to other number system =============== */
+
+.number-system-conversion-ds-to-os {
+    background-color: #2A9D8F;
+    margin: 20px 0px;
+}
+
+.number-system-conversion-ds-to-os-heading {
+    text-align: center;
+    color: #fafafa;
+    font-size: 1.6rem;
+    padding: 35px 10px 10px 10px;
+}
+
+.number-system-conversion-ds-to-os-heading h1 {
+    font-weight: 800;
+}
+
+.ds-to-os-decimal-to-binary {
+    background: linear-gradient(90deg, hsla(176, 62%, 87%, 1) 0%, hsla(175, 63%, 80%, 1) 25%, hsla(176, 62%, 68%, 1) 50%, hsla(176, 62%, 72%, 1) 75%, hsla(176, 62%, 68%, 1) 100%);
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+/* ====== Decimal to Binary ====== */
+
+.ds-to-os-decimal-to-binary-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 8px 20px 25px 20px;
+}
+
+.ds-to-os-decimal-to-binary-explanation-text p {
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ds-to-os-decimal-to-binary-explanation-text-steps P {
+    padding: 2px 0px;
+}
+
+.ds-to-os-decimal-fraction-to-binary-fraction-explanation-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 35px 20px 35px 20px;
+}
+
+.ds-to-os-decimal-fraction-to-binary-fraction-explanation-steps p {
+    padding: 2px 0px;
+}
+
+/* Example */
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2 {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 0px 15px #1A746D;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-example-span {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin: 15px 0px 5px 0px;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-example-question-span {
+    font-size: 18px;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-solution {
+    padding: 5px;
+    display: block;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-solution-img-span img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-solution-text-span {
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* ===== */
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-example,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-example-question,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-solution-text,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-solution-img,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-solution-img,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-solution-text,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-example-question,
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1-example {
+    text-align: center;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-example-span {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin: 15px 0px 5px 0px;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-example-question-span {
+    font-size: 18px;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-solution {
+    padding: 5px;
+    display: block;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-solution-img-span img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2-solution-text-span {
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* fraction example */
+
+.ds-to-bn-example-1 {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 0px 15px #1A746D;
+    margin: 10px 0px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.ds-to-bn-example-1-head-span {
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+    display: block;
+}
+
+.ds-to-bn-example-1-question-text-span {
+    font-size: 18px;
+    padding: 10px 20px;
+    /* display: block; */
+}
+
+.ds-to-bn-example-1-solution-img-span {
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+.ds-to-bn-example-1-solution-img-span img {
+    border-radius: 25px;
+    max-width: 100%;
+    transform: rotateZ(0.56deg);
+}
+
+.ds-to-bn-example-1-solution-answer-span {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.ds-to-bn-example-1-solution-steps {
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.sushant {
+    padding: 2px 0px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=- ds-to-os-decimal-to-octal -=-=-=-=-=-=-=-=-=-=-=- */
+
+.ds-to-os-decimal-to-octal {
+    background: linear-gradient(90deg, hsla(176, 62%, 87%, 1) 0%, hsla(175, 63%, 80%, 1) 25%, hsla(176, 62%, 68%, 1) 50%, hsla(176, 62%, 72%, 1) 75%, hsla(176, 62%, 68%, 1) 100%);
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.ds-to-os-decimal-to-octal-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px 10px 25px 10px;
+}
+
+.ds-to-os-decimal-to-octal-explanation-text p {
+    padding: 10px 10px 8px 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ds-to-os-decimal-to-octal-explanation-text-steps {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.ds-to-os-decimal-to-octal-explanation-text-steps p {
+    padding: 2px;
+}
+
+/* Example */
+
+.example-for-ds-to-oc {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 0px 15px #1A746D;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.example-for-ds-to-oc-heading {
+    padding: 10px 15px;
+}
+
+.example-for-ds-to-oc-heading h1 {
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.example-for-ds-to-oc-question-span {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.example-for-ds-to-oc-solution-img {
+    padding: 10px;
+    text-align: center;
+}
+
+.example-for-ds-to-oc-solution-img img {
+    max-width: 100%;
+    border-radius: 20px;
+    transform: rotateZ(1.3deg);
+}
+
+.example-for-ds-to-oc-solution-text {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px 20px 10px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=- ds-to-os-decimal-to-octal  fractional -=-=-=-=-=-=-=-=-=-=-=- */
+
+.ds-to-os-decimal-fraction-to-octal-fraction-explanation-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 25px 10px 25px 10px;
+}
+
+.ds-to-os-decimal-fraction-to-octal-fraction-explanation-steps {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.ds-to-os-decimal-fraction-to-octal-fraction-explanation-steps p {
+    padding: 2px;
+}
+
+/* Example */
+
+.example-for-ds-to-oc-fr {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 0px 15px #1A746D;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.example-for-ds-to-oc-heading-fr {
+    padding: 10px 15px;
+}
+
+.example-for-ds-to-oc-heading-fr h1 {
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.example-for-ds-to-oc-question-span-fr {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.example-for-ds-to-oc-solution-img-fr {
+    padding: 10px;
+    text-align: center;
+}
+
+.example-for-ds-to-oc-solution-img-fr img {
+    max-width: 100%;
+    border-radius: 20px;
+    /* transform: rotateZ(1.3deg); */
+}
+
+.example-for-ds-to-oc-solution-text-fr {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px 20px 10px;
+}
+
+/* ============================= decimal to Hexadecimal ============================= */
+
+.conversion-ds-to-hs {
+    background: linear-gradient(90deg, hsla(176, 62%, 87%, 1) 0%, hsla(175, 63%, 80%, 1) 25%, hsla(176, 62%, 68%, 1) 50%, hsla(176, 62%, 72%, 1) 75%, hsla(176, 62%, 68%, 1) 100%);
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.conversion-ds-to-hs-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.conversion-ds-to-hs-explanation-text p {
+    padding: 10px 10px 8px 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conversion-ds-to-hs-explanation-text-steps {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.conversion-ds-to-hs-explanation-text-steps p {
+    padding: 2px;
+}
+
+/* example */
+
+.example-for-conversion-ds-to-hs {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 0px 15px #1A746D;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.example-for-conversion-ds-to-hs-heading {
+    padding: 10px 15px;
+}
+
+.example-for-conversion-ds-to-hs-heading h1 {
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.example-for-conversion-ds-to-hs-question-span {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.example-for-conversion-ds-to-hs-solution-img {
+    padding: 10px;
+    text-align: center;
+}
+
+.example-for-conversion-ds-to-hs-solution-img img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.example-for-conversion-ds-to-hs-solution-text {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px 20px 10px;
+}
+
+/* ============================= decimal fractional to Hexadecimal fractional ============================= */
+
+.conversion-ds-to-hs-fraction-explanation-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 25px;
+}
+
+.conversion-ds-to-hs-fraction-explanation-steps {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.conversion-ds-to-hs-fraction-explanation-steps p {
+    padding: 2px;
+}
+
+/* example */
+
+.example-for-conversion-ds-to-hs-fr {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 0px 15px #1A746D;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.example-for-conversion-ds-to-hs-heading-fr {
+    padding: 10px 15px;
+}
+
+.example-for-conversion-ds-to-hs-heading-fr h1 {
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.example-for-conversion-ds-to-hs-question-span-fr {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.example-for-conversion-ds-to-hs-solution-img-fr {
+    padding: 10px;
+    text-align: center;
+}
+
+.example-for-conversion-ds-to-hs-solution-img-fr img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.example-for-conversion-ds-to-hs-solution-text-fr {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px 20px 10px;
+}
+
+/* ======================= Other base to decimal ======================= */
+
+.other-base-to-decimal {
+    background-color: #8ECAE6;
+    margin: 20px 0px;
+}
+
+.other-base-to-decimal-heading {
+    font-size: 1.6rem;
+    padding: 35px 25px 25px 25px;
+    text-align: center;
+}
+
+.other-base-to-decimal-heading h1 {
+    font-weight: 800;
+}
+
+/* binary to decimal */
+
+.obdec-binary-to-decimal {
+    background: linear-gradient(225deg, hsla(192, 70%, 28%, 1) 0%, hsla(192, 71%, 32%, 1) 25%, hsla(192, 71%, 36%, 1) 50%, hsla(192, 71%, 32%, 1) 75%, hsla(192, 70%, 28%, 1) 100%);
+    margin: 20px 0px;
+    padding: 20px;
+    color: #fafafa;
+}
+
+.obdec-binary-to-decimal-normal-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 20px 30px 20px;
+}
+
+.obdec-method-to-covert-binary-to-decimal-normal {
+    padding: 0px 10px 10px 10px;
+}
+
+.obdec-method-to-covert-binary-to-decimal-normal .steps {
+    padding: 2px;
+}
+
+/* example */
+
+.binary-to-decimal-normal-example {
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+    box-shadow: 0px 0px 15px #02222b;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.question-for-binary-to-decimal-normal-example p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.solution-for-binary-to-decimal-normal-example-image {
+    padding: 10px 10px;
+}
+
+.solution-for-binary-to-decimal-normal-example-image img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.solution-for-binary-to-decimal-normal-example-text p {
+    padding: 10px 15px;
+}
+
+.solution-for-binary-to-decimal-normal-example-steps {
+    padding: 10px 15px;
+}
+
+.solution-for-binary-to-decimal-normal-example-steps .steps {
+    padding: 2px;
+}
+
+/* Binary fraction to decimal fraction */
+
+.obdec-binary-to-decimal-fraction-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 20px 20px 20px;
+}
+
+.obdec-method-to-covert-binary-fraction-to-decimal-fraction {
+    padding: 0px 10px 10px 10px;
+}
+
+.obdec-method-to-covert-binary-fraction-to-decimal-fraction .steps {
+    padding: 2px;
+}
+
+/* example */
+
+.binary-to-decimal-fraction-example {
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+    box-shadow: 0px 0px 15px #02222b;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.question-for-binary-to-decimal-fraction-example p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.solution-for-binary-to-decimal-fraction-example-image {
+    padding: 10px 10px;
+}
+
+.solution-for-binary-to-decimal-fraction-example-image img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.solution-for-binary-to-decimal-fraction-example-text p {
+    padding: 10px 15px;
+}
+
+.solution-for-binary-to-decimal-fraction-example-steps {
+    padding: 10px 15px;
+}
+
+.solution-for-binary-to-decimal-fraction-example-steps .steps {
+    padding: 2px;
+    font-size: 19px;
+}
+
+/* Octal to decimal */
+
+.ocdec-octal-to-decimal {
+    background: linear-gradient(225deg, hsla(192, 70%, 28%, 1) 0%, hsla(192, 71%, 32%, 1) 25%, hsla(192, 71%, 36%, 1) 50%, hsla(192, 71%, 32%, 1) 75%, hsla(192, 70%, 28%, 1) 100%);
+    margin: 20px 0px;
+    padding: 20px;
+    color: #fafafa;
+}
+
+.ocdec-octal-to-decimal-normal-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 20px 30px 20px;
+}
+
+.ocdec-method-to-covert-octal-to-decimal-normal {
+    padding: 0px 10px 10px 10px;
+}
+
+.ocdec-method-to-covert-octal-to-decimal-normal .steps {
+    padding: 2px;
+    font-size: 19px;
+}
+
+/* example */
+
+.octal-to-decimal-normal-example {
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+    box-shadow: 0px 0px 15px #02222b;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.question-for-octal-to-decimal-normal-example p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.solution-for-octal-to-decimal-normal-example-image {
+    padding: 10px 10px;
+}
+
+.solution-for-octal-to-decimal-normal-example-image img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.solution-for-octal-to-decimal-normal-example-text p {
+    padding: 10px 15px;
+}
+
+.solution-for-octal-to-decimal-normal-example-steps {
+    padding: 10px 15px;
+}
+
+.solution-for-octal-to-decimal-normal-example-steps .steps {
+    padding: 2px;
+    font-size: 19px;
+}
+
+/* Octal fraction to decimal fraction */
+
+.ocdec-octal-to-decimal-fraction-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 20px 20px 20px;
+}
+
+.ocdec-method-to-covert-octal-fraction-to-decimal-fraction {
+    padding: 0px 10px 10px 10px;
+}
+
+.ocdec-method-to-covert-octal-fraction-to-decimal-fraction .steps {
+    padding: 2px;
+}
+
+/* example */
+
+.octal-to-decimal-fraction-example {
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+    box-shadow: 0px 0px 15px #02222b;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.question-for-octal-to-decimal-fraction-example p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.solution-for-octal-to-decimal-fraction-example-image {
+    padding: 10px 10px;
+}
+
+.solution-for-octal-to-decimal-fraction-example-image img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.solution-for-octal-to-decimal-fraction-example-text p {
+    padding: 10px 15px;
+}
+
+.solution-for-octal-to-decimal-fraction-example-steps {
+    padding: 10px 15px;
+}
+
+.solution-for-octal-to-decimal-fraction-example-steps .steps {
+    padding: 2px;
+    font-size: 19px;
+}
+
+/* Hexadecimal to decimal */
+
+.hsdec-hexadecimal-to-decimal {
+    background: linear-gradient(225deg, hsla(192, 70%, 28%, 1) 0%, hsla(192, 71%, 32%, 1) 25%, hsla(192, 71%, 36%, 1) 50%, hsla(192, 71%, 32%, 1) 75%, hsla(192, 70%, 28%, 1) 100%);
+    margin: 20px 0px 0px 0px;
+    color: #fafafa;
+    padding: 20px;
+}
+
+.hsdec-hexadecimal-to-decimal-normal-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 20px 30px 20px;
+}
+
+.hsdec-method-to-covert-hexadecimal-to-decimal-normal {
+    padding: 0px 10px 10px 10px;
+}
+
+.hsdec-method-to-covert-hexadecimal-to-decimal-normal .steps {
+    padding: 2px;
+}
+
+/* example */
+
+.hexadecimal-to-decimal-normal-example {
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+    box-shadow: 0px 0px 15px #02222b;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.question-for-hexadecimal-to-decimal-normal-example p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.solution-for-hexadecimal-to-decimal-normal-example-text p {
+    padding: 10px 15px;
+}
+
+.solution-for-hexadecimal-to-decimal-normal-example-steps {
+    padding: 10px 15px;
+}
+
+.solution-for-hexadecimal-to-decimal-normal-example-steps .steps {
+    padding: 2px;
+    font-size: 19px;
+}
+
+/* hexadecimal fraction to decimal fraction */
+
+.hsdec-hexadecimal-to-decimal-fraction-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px 20px 20px 20px;
+}
+
+.hsdec-method-to-covert-hexadecimal-fraction-to-decimal-fraction {
+    padding: 0px 10px 10px 10px;
+}
+
+.hsdec-method-to-covert-hexadecimal-fraction-to-decimal-fraction .steps {
+    padding: 2px;
+}
+
+/* example */
+
+.hexadecimal-to-decimal-fraction-example {
+    background-color: rgb(250, 250, 250);
+    color: #000000;
+    box-shadow: 0px 0px 15px #02222b;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.question-for-hexadecimal-to-decimal-fraction-example p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.solution-for-hexadecimal-to-decimal-fraction-example-text p {
+    padding: 10px 15px;
+}
+
+.solution-for-hexadecimal-to-decimal-fraction-example-steps {
+    padding: 10px 15px;
+}
+
+.solution-for-hexadecimal-to-decimal-fraction-example-steps .steps {
+    padding: 2px;
+    font-size: 19px;
+}
+
+/* One base to another Base */
+
+.obtob-base-to-other-base {
+    background-color: #E0FBFC;
+    margin: 20px 0px;
+    padding: 10px 0px 20px 0px;
+}
+
+.obtob-heading {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 20px 10px 20px 10px;
+}
+
+.obtob-heading h1 {
+    font-weight: 800;
+}
+
+/* Binary to Hexadecimal */
+
+.obtob-binary-to-hexadecimal {
+    background: linear-gradient(135deg, hsla(12, 83%, 56%, 1) 0%, hsla(12, 83%, 60%, 1) 25%, hsla(12, 83%, 62%, 1) 50%, hsla(12, 83%, 61%, 1) 75%, hsla(12, 83%, 68%, 1) 100%);
+    padding: 20px 20px 20px 20px;
+}
+
+.obtob-binary-to-hexadecimal-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px 20px 25px 20px;
+    color: #fafafa;
+}
+
+.hs-bs-table-text-p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    color: #fafafa;
+}
+
+/* binary and hexasecimla values */
+
+.table-for-binary-and-hexadecimal-values {
+    padding: 5px 20px 20px 20px;
+}
+
+.table-for-binary-and-hexadecimal-values-on-small-screens {
+    text-align: center;
+}
+
+.table-for-binary-and-hexadecimal-values-on-small-screens-table {
+    margin: 5px auto 25px auto;
+}
+
+.table-for-binary-and-hexadecimal-values-on-wider-screens {
+    padding: 0px 25px 25px 25px;
+}
+
+/* method */
+
+.obtob-bs-to-hs-method-p-heading-p {
+    padding: 20px 0px;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    color: #fafafa;
+}
+
+.obtob-bs-to-hs-method-method-1-heading {
+    padding: 20px 20px;
+}
+
+.obtob-bs-to-hs-method-method-1-text-main {
+    padding: 20px 5px 10px 5px;
+}
+
+.obtob-bs-to-hs-method-method-1-text-main .steps {
+    padding: 2px;
+    color: #fafafa;
+}
+
+.obtob-bs-to-hs-method-method-1-text-extra-p {
+    font-size: 19px;
+    padding: 5px 10px 20px 10px;
+    color: #fafafa;
+}
+
+.obtob-bs-to-hs-method-method-1-example-normal {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 25px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    box-shadow: 0px 0px 15px 2.5px #8a2c00;
+}
+
+.obtob-bs-to-hs-method-method-1-example-normal-solution-pic {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.obtob-bs-to-hs-method-method-1-example-normal-solution-pic img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.obtob-bs-to-hs-method-method-1-example-normal-solution-text-heading-p {
+    padding: 0px 10px 10px 10px;
+}
+
+.obtob-bs-to-hs-method-method-1-example-normal-solution-text-explanation {
+    padding-bottom: 5px;
+}
+
+.obtob-bs-to-hs-method-method-1-example-normal-solution-text-explanation .steps {
+    padding-bottom: 2px;
+}
+
+/* example fraction */
+
+.obtob-bs-to-hs-method-method-1-example-fraction {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 20px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    box-shadow: 0px 0px 15px 2.5px #8a2c00;
+}
+
+.obtob-bs-to-hs-method-method-1-example-fraction-question-p {
+    padding: 0px 15px;
+}
+
+.obtob-bs-to-hs-method-method-1-example-fraction-solution-pic {
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.obtob-bs-to-hs-method-method-1-example-fraction-solution-pic img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.obtob-bs-to-hs-method-method-1-example-fraction-solution-text-heading-p {
+    padding: 0px 10px 10px 10px;
+}
+
+.obtob-bs-to-hs-method-method-1-example-fraction-solution-text-explanation {
+    padding-bottom: 5px;
+}
+
+.obtob-bs-to-hs-method-method-1-example-fraction-solution-text-explanation .steps {
+    padding-bottom: 2px;
+}
+
+/* ===================== hstbs ===================== */
+
+.hstbs-hexadecimal-to-binary {
+    background: linear-gradient(135deg, hsla(12, 83%, 56%, 1) 0%, hsla(12, 83%, 60%, 1) 25%, hsla(12, 83%, 62%, 1) 50%, hsla(12, 83%, 61%, 1) 75%, hsla(12, 83%, 68%, 1) 100%);
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+/* hstbs heading */
+
+.hstbs-hexadecimal-to-binary-heading {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px;
+    color: #fafafa;
+}
+
+/* hstbs text */
+
+.hstbs-hexadecimal-to-binary-conversion-text-p {
+    font-size: 20px;
+    padding: 20px 10px;
+    color: #fafafa;
+}
+
+/* conversion steps */
+
+.hstbs-hexadecimal-to-binary-conversion-steps {
+    padding: 5px 0px 20px 0px;
+}
+
+.hstbs-hexadecimal-to-binary-conversion-steps-p {
+    padding-bottom: 20px;
+}
+
+.hstbs-hexadecimal-to-binary-conversion-steps-p .steps {
+    padding: 2px;
+    color: #fafafa;
+}
+
+/* conversion images */
+
+.hstbs-hexadecimal-to-binary-conversion-steps-example {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.hstbs-hexadecimal-to-binary-conversion-steps-example-img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* ==== example ==== */
+
+/* both example */
+
+.hstbs-hexadecimal-to-binary-example-normal,
+.hstbs-hexadecimal-to-binary-example-fraction {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 20px 20px 0px 20px;
+    height: 100%;
+    box-shadow: 0px 0px 15px 2.5px #8a2c00;
+}
+
+.hstbs-hexadecimal-to-binary-example-normal table,
+.hstbs-hexadecimal-to-binary-example-fraction table {
+    margin: 10px auto 20px auto;
+}
+
+/* normal example */
+
+.hstbs-hexadecimal-to-binary-example-normal-question p {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.hstbs-hexadecimal-to-binary-example-normal-solution-text p {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-size: 19px;
+}
+
+/* normal fraction */
+
+.hstbs-hexadecimal-to-binary-example-fraction-question p {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.hstbs-hexadecimal-to-binary-example-fraction-solution-text p {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-size: 19px;
+}
+
+.hstbs-fraction-example-table-body-tr-1-td-3,
+.hstbs-fraction-example-table-body-tr-2-td-3 {
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0px 20px;
+}
+
+
+/* Binary to Octal */
+
+.bstos-binary-to-octal {
+    background: linear-gradient(135deg, hsla(12, 83%, 56%, 1) 0%, hsla(12, 83%, 60%, 1) 25%, hsla(12, 83%, 62%, 1) 50%, hsla(12, 83%, 61%, 1) 75%, hsla(12, 83%, 68%, 1) 100%);
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+/* heading */
+
+.bstos-binary-to-octal-heading {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px;
+    color: #fafafa;
+}
+
+.oc-bs-table-text-p {
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.table-for-binary-and-octal-values-on-table-1 table {
+    margin: 20px auto;
+}
+
+.bstos-bs-to-os-method-p-heading-p {
+    text-align: center;
+    padding: 2px 30px 5px 30px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.bstos-bs-to-os-method-method-1-text-main {
+    padding: 10px;
+}
+
+.bstos-bs-to-os-method-method-1-text-main .steps {
+    padding: 2px;
+    color: #fafafa;
+}
+
+.bstos-bs-to-os-method-method-1-text-extra-p {
+    padding: 10px 15px 20px 15px;
+    font-size: 19px;
+    color: #fafafa;
+}
+
+/* example */
+
+.bstos-bs-to-os-method-method-1-example-normal {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2.5px #8a2c00;
+}
+
+.bstos-bs-to-os-method-method-1-example-fraction {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2.5px #8a2c00;
+}
+
+/* normal */
+
+.bstos-bs-to-os-method-method-1-example-normal-question {
+    padding: 20px 10px;
+}
+
+.bstos-bs-to-os-method-method-1-example-normal-question p {
+    font-size: 20px;
+}
+
+.bstos-bs-to-os-method-method-1-example-normal-solution-pic {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.bstos-bs-to-os-method-method-1-example-normal-solution-pic img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.bstos-bs-to-os-method-method-1-example-normal-solution-text-heading-p {
+    font-size: 19px;
+    padding: 10px 20px;
+}
+
+.bstos-bs-to-os-method-method-1-example-normal-solution-text-explanation {
+    padding: 8px;
+}
+
+.bstos-bs-to-os-method-method-1-example-noraml-solution-text-explanation .steps {
+    padding: 2px;
+}
+
+/* fractional */
+
+.bstos-bs-to-os-method-method-1-example-fraction-question {
+    padding: 20px 10px;
+}
+
+.bstos-bs-to-os-method-method-1-example-fraction-question p {
+    font-size: 20px;
+}
+
+.bstos-bs-to-os-method-method-1-example-fraction-solution-pic {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.bstos-bs-to-os-method-method-1-example-fraction-solution-pic img {
+    border-radius: 20px;
+    max-width: 99%;
+}
+
+.bstos-bs-to-os-method-method-1-example-fraction-solution-text-heading-p {
+    font-size: 19px;
+    padding: 10px 20px;
+}
+
+.bstos-bs-to-os-method-method-1-example-fraction-solution-text-explanation {
+    padding: 8px;
+}
+
+.bstos-bs-to-os-method-method-1-example-fraction-solution-text-explanation .steps {
+    padding: 2px;
+}
+
+/* Hexa to Octal and Octal to Hexa */
+
+.hexa-to-octal-and-octal-to-hexa {
+    background: linear-gradient(135deg, hsla(12, 83%, 56%, 1) 0%, hsla(12, 83%, 60%, 1) 25%, hsla(12, 83%, 62%, 1) 50%, hsla(12, 83%, 61%, 1) 75%, hsla(12, 83%, 68%, 1) 100%);
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+.hexa-to-octal-and-octal-to-hexa-heading {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+    color: #fafafa;
+}
+
+/* Hexa to Octal */
+
+.how-to-convert-hexa-to-octal p,
+.how-to-convert-octal-to-hexa p {
+    font-size: 20px;
+    padding: 0px 10px 20px 10px;
+    color: #fafafa;
+}
+
+/* example */
+
+.example-for-hexa-to-octal {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2.5px #8a2c00;
+}
+
+.question-of-example-for-hexa-to-octal p {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.solution-of-question-of-example-for-hexa-to-octal-step-1-p p {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.solution-of-question-of-example-for-hexa-to-octal-step-2-p-1 p {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.solution-of-question-of-example-for-hexa-to-octal-step-2-p-2 p {
+    font-size: 20px;
+    padding: 5px 0px 10px 0px;
+}
+
+.solution-of-question-of-example-for-hexa-to-octal-step-3-p p {
+    font-size: 18px;
+    padding: 5px 0px 10px 0px;
+}
+
+.solution-of-question-of-example-for-hexa-to-octal-step-4-p P {
+    font-size: 18px;
+    padding: 20px 0px 20px 0px;
+}
+
+/* Octal to hexa */
+
+.how-to-convert-octal-to-hexa p {
+    padding-top: 20px;
+}
+
+/* Example */
+
+.example-for-octal-to-hexa {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2.5px #8a2c00;
+}
+
+.question-of-example-for-octal-to-hexa p {
+    padding: 20px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.solution-of-question-of-example-for-octal-to-hexa-step-1-p p {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.solution-of-question-of-example-for-octal-to-hexa-step-2-p-1 p {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.solution-of-question-of-example-for-octal-to-hexa-step-2-p-2 p {
+    font-size: 20px;
+    padding: 5px 0px 10px 0px;
+}
+
+.solution-of-question-of-example-for-octal-to-hexa-step-3-p p {
+    font-size: 18px;
+    padding: 5px 0px 10px 0px;
+}
+
+.solution-of-question-of-example-for-octal-to-hexa-step-4-p p {
+    font-size: 18px;
+    padding: 20px 0px 20px 0px;
+}
+
+/* for table row and column */
+
+.solution-of-question-of-example-for-octal-to-hexa-step-3-table-text {
+    padding-top: 10px;
+}
+
+.solution-of-question-of-example-for-octal-to-hexa-step-3-table-text-row {
+    padding-top: 10px;
+}
+
+/* contact Sushant */
+
+.form-div {
+    background: rgba(33, 33, 33, .8);
+    margin: 40px 20px 20px 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form-div .form {
+    padding: 20px;
+}
+
+.form-div .form input,
+textarea::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form-div .form input[type=text] {
+    width: 80%;
+    padding: 8px 20px;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-family: "SFProDisplaySemibold";
+
+}
+
+.form-div .form input[type=email] {
+    width: 80%;
+    padding: 8px 20px;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-family: "SFProDisplaySemibold";
+}
+
+.form-div .form textarea {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    display: block;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    resize: none;
+    font-size: 16px;
+    font-family: "SFProDisplaySemibold";
+}
+
+.form-div .form textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.form-div .form button {
+    margin: auto;
+    display: block;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 15px;
+    font-family: "SFProDisplaySemibold";
+    cursor: pointer;
+}
+
+.form-div .form button:hover {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.form-div .form input[type=submit]:active {
+    background-color: white;
+    color: black;
+}
+
+/* heading */
+
+.form-div-intro h1 {
+    font-family: "specify-normal-bold";
+    text-transform: capitalize;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}

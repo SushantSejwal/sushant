@@ -1,0 +1,91 @@
+body {
+    background-color: #f3f3f3;
+}
+
+/* section */
+
+.steve-jobs-section {
+    max-width: 1600px;
+    margin: 50.5px auto 0px auto;
+}
+
+.steven-pol-jobs {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.steve-jobs-img {
+    text-align: center;
+    margin: 20px;
+}
+
+.steve-jobs-img img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(32, 32, 32);
+}
+
+.steve-jobs-text-heading h1 {
+    font-family: "SFPro-Semibold";
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.steve-jobs-text-para p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* video */
+
+.steve-jobs-video {
+    background-color: #ffffff;
+    padding: 40px 20px 20px 20px;
+    margin: 20px 0px 10px 0px;
+}
+
+.steve-iframe-main {
+    padding: 56.25% 0 0 0;
+    position: relative;
+}
+
+.inside-steve-iframe-main {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.inside-steve-iframe-main iframe{
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #0f3642;
+}
+
+.video-caption{
+    padding: 20px 10px;
+}
+
+.video-caption .caption{
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* last words */
+
+.jobs-last-words{
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px 0px 10px 0px;
+}
+
+.jobs-last-words .words{
+font-size: 1.2rem;
+font-weight: 500;
+padding: 3px 0px;
+}
