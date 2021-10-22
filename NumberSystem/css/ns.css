@@ -129,7 +129,7 @@ h1 {
     padding: 10px;
 }
 
-.ds-position-table-2-text p {
+.ds-position-table-2-text p{
     padding-top: 20px;
 }
 
@@ -166,7 +166,7 @@ h1 {
 }
 
 .bs-positional-value-text {
-    padding: 10px 0px;
+    padding: 20px 0px 15px 0px;
 }
 
 /* =============== Octal Number System =============== */
