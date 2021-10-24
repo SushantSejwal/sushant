@@ -238,20 +238,92 @@
     box-shadow: inset 0.1px 0.1px 10px rgb(92, 92, 92);
 }
 
-/* Footer */
+/* =============================== Footer =============================== */
+
 .footer {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(29, 28, 28);
     color: white;
-    font-family: "SFPro-Semibold";
-}
-
-.footer-div {
-    padding: 15px;
     text-align: center;
+    margin-top: auto;
 }
 
-.footer-div-span {
-    font-size: 18px;
-    font-family: "d";
-    font-family: "SFPro-Regular";
+.footer-para {
+    font-size: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-para-text {
+    margin: 0px 25px;
+}
+
+/* link to apple */
+
+.link-tp-apple-svg {
+    width: 15px;
+    margin: 0px 25px;
+}
+
+.link-to-apple-svg-g {
+    fill: #dadada;
+}
+
+.link-to-apple-svg-g.apple_sushantanshika {
+    fill: #ffffff;
+}
+
+.footer-para-svg {
+    border-left: 1px solid rgb(230, 230, 230);
+}
+
+@media only screen and (max-width:432px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 20px;
+    }
+
+    .footer-para-text {
+        margin: 0px 20px;
+    }
+
+}
+
+@media only screen and (max-width:412px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 15px;
+    }
+
+    .footer-para-text {
+        margin: 0px 15px;
+    }
+
+}
+
+@media only screen and (max-width:392px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 10px;
+    }
+
+    .footer-para-text {
+        margin: 0px 10px;
+    }
+
+}
+
+@media only screen and (max-width:372px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 5px;
+        width: 14px;
+    }
+
+    .footer-para-text {
+        margin: 0px 5px;
+        font-size: 14px;
+    }
+
 }

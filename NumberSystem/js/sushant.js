@@ -6,6 +6,7 @@ const link_3 = document.querySelector(".link_3"); const logo_svg_container = doc
 const svg_g = document.querySelector('.main-logo-svg-g')
 const link_4 = document.querySelector(".link_4"); 
 // const link_5 = document.querySelector(".link_5"); 
+const apple = document.querySelector('.link-to-apple'); const apple_svg = document.querySelector('.link-to-apple-svg-g');
 
 button.addEventListener("click", () => { toggle(); }
 );
@@ -34,20 +35,28 @@ function toggle() {
 
 // SVG
 
-logo_svg_container.addEventListener("mouseover", () =>
+logo_svg_container.addEventListener("mouseover", () => {
     svg_g.classList.add("sushant_anshika")
-);
+});
 
-logo_svg_container.addEventListener("mouseleave", () =>
+logo_svg_container.addEventListener("mouseleave", () =>{
     svg_g.classList.remove("sushant_anshika")
-);
+});
 
-const date = new Date(); //getting date
-const year = date.getFullYear(); //getting year
+apple.addEventListener("mouseover", () => {
+    apple_svg.classList.add("apple_sushantanshika")
+});
 
-const footer = document.getElementById("footer-div-span"); //getting footer by ID
-footer.innerHTML = 'Copyright &copy;' + ' ' + year + ' ' + 'Sushant. All rights reserved'; // footer message
+apple.addEventListener("mouseleave", () => {
+    apple_svg.classList.remove("apple_sushantanshika")
+});
 
+
+const d = new Date();
+const year = d.getFullYear();
+
+const footer = document.getElementById('footer-para-text');
+footer.innerHTML = 'Copyright &copy;' + ' ' + year + ' ' + 'Sushant. All rights reserved';
 // from 
 
 var form = document.getElementById('sheetdb-form');

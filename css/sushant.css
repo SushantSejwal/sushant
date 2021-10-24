@@ -86,7 +86,7 @@ body {
 
 /* img */
 
-.number-system-img{
+.number-system-img {
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ body {
     transition: all .17s ease-in-out;
 }
 
-.number-system-img a img:hover{
+.number-system-img a img:hover {
     transform: scale(99%);
 }
 
@@ -119,13 +119,13 @@ body {
     max-width: 1900px;
 }
 
-.sushant-image{
+.sushant-image {
     text-align: center;
 }
 
 @media only screen and (max-width:500px) {
-    
-    .sushant-image img{
+
+    .sushant-image img {
         width: 80%;
     }
 }
@@ -266,7 +266,7 @@ body {
     transform: scale(100%);
 }
 
-.sushant-python-img img:hover{
+.sushant-python-img img:hover {
     transform: scale(99%);
     box-shadow: 0px 0px 20px #00070A;
     transition: all .17s ease-in-out;
@@ -316,46 +316,46 @@ body {
 
 /* text */
 
-.boolean-logic-text{
+.boolean-logic-text {
     text-align: center;
 }
 
-.boolean-logic-text a{
+.boolean-logic-text a {
     text-decoration: none;
     color: rgb(240, 230, 230);
 }
 
-.boolean-logic-text a p{
+.boolean-logic-text a p {
     font-size: 22px;
-    font-family:"SFProDisplayRegular";
+    font-family: "SFProDisplayRegular";
     padding: 15px 30px;
 }
 
 /* anchor */
 
-.boolean-logic-anchor{
+.boolean-logic-anchor {
     text-align: center;
     padding: 15px 20px;
 }
 
-.boolean-logic-anchor a{
+.boolean-logic-anchor a {
     text-decoration: none;
     color: rgb(240, 230, 230);
     font-size: 20px;
 }
 
-.boolean-logic-anchor .boolean-anchor-span-text:hover{
+.boolean-logic-anchor .boolean-anchor-span-text:hover {
     text-decoration: underline;
 }
 
 /* img */
 
-.boolean-logic-img{
+.boolean-logic-img {
     padding: 20px 20px 50px 20px;
     text-align: center;
 }
 
-.boolean-logic-img img{
+.boolean-logic-img img {
     max-width: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px #070a0a;
@@ -363,7 +363,7 @@ body {
     transform: scale(100%);
 }
 
-.boolean-logic-img img:hover{
+.boolean-logic-img img:hover {
     box-shadow: 0px 0px 20px #0d1111;
     transform: scale(99%);
 }
@@ -376,19 +376,92 @@ body {
 
 /* =============================== Footer =============================== */
 
-footer {
-    margin-top: auto;
-}
-
 .footer {
     background-color: rgb(29, 28, 28);
     color: white;
     text-align: center;
+    margin-top: auto;
 }
 
-.footer p {
-    font-size: 16px;
+.footer-para {
+    font-size: 15px;
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-para-text {
+    margin: 0px 25px;
+}
+
+/* link to apple */
+
+.link-tp-apple-svg {
+    width: 15px;
+    margin: 0px 25px;
+}
+
+.link-to-apple-svg-g {
+    fill: #dadada;
+}
+
+.link-to-apple-svg-g.apple_sushantanshika {
+    fill: #ffffff;
+}
+
+.footer-para-svg {
+    border-left: 1px solid rgb(230, 230, 230);
+}
+
+@media only screen and (max-width:432px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 20px;
+    }
+
+    .footer-para-text {
+        margin: 0px 20px;
+    }
+
+}
+
+@media only screen and (max-width:412px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 15px;
+    }
+
+    .footer-para-text {
+        margin: 0px 15px;
+    }
+
+}
+
+@media only screen and (max-width:392px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 10px;
+    }
+
+    .footer-para-text {
+        margin: 0px 10px;
+    }
+
+}
+
+@media only screen and (max-width:372px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 5px;
+        width: 14px;
+    }
+
+    .footer-para-text {
+        margin: 0px 5px;
+        font-size: 14px;
+    }
+
 }
 
 /* ================================= steve section ================================= */
@@ -474,7 +547,7 @@ footer {
     transform: scale(100%);
 }
 
-.sushant-steve-img img:hover{
+.sushant-steve-img img:hover {
     transform: scale(99%);
     box-shadow: 0px 0px 20px #024e08;
     transition: all .17s ease-in-out;

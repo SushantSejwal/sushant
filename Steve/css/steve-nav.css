@@ -190,10 +190,7 @@
         transition: opacity 0.1s ease-in-out;
     }
 
-    /* .link_5 {
-        opacity: 0;
-        transition: opacity 0.05s ease-in-out;
-    } */
+    /* ======= */
 
     .link_1.sushantsejwal {
         opacity: 1;
@@ -214,11 +211,6 @@
         opacity: 1;
         transition: opacity 0.85s ease-in-out;
     }
-
-    /* .link_5.sushantsejwal {
-        opacity: 1;
-        transition: opacity 0.9s ease-in-out;
-    } */
 }
 
 /* ======================= Scroll Bar ======================= */
