@@ -21,14 +21,13 @@
 
 /* ============== */
 
-html{
+html {
     -webkit-tap-highlight-color: transparent;
 }
 
 /* ============== */
 
 .under-construction {
-    height: calc(100vh - 60.8px);
     max-width: 1920px;
     margin: 50.8px auto 10px auto;
     display: grid;
@@ -49,6 +48,94 @@ html{
     word-wrap: break-word;
 }
 
-.under-const-img img{
+.under-const-img img {
     max-width: 100%;
+}
+
+/* OR */
+.awesome {
+    max-width: 1920px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.awesome-not-complete p {
+    padding: 10px 20px;
+    font-family: "SFPro-Semibold";
+    font-size: 22px;
+    word-spacing: 2px;
+}
+
+.awesome-not-complete p a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.awesome-not-complete p a:hover {
+    text-decoration: underline;
+}
+
+/* enjoy */
+
+.or {
+    margin: 5px;
+    padding: 5px;
+}
+
+.or-heading p {
+    padding: 25px 25px 25px 25px;
+    font-family: "SFPro-Semibold";
+    font-size: 35px;
+}
+
+.or-img {
+    padding: 15px 10px 40px 10px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.or-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+img.enjoy{
+    max-width: 35%;
+}
+
+.or-video{
+    padding: 20px;
+    text-align: center;
+}
+
+.or-video video.lister-1{
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px #053b17;
+}
+
+@media only screen and (max-width:768px) {
+    img.enjoy{
+        max-width: 80%;
+    }
+
+    .or-video{
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:800px) {
+
+    .or-video{
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .or-video video.lister-1{
+        max-width: 78%;
+        border-radius: 10px;
+        box-shadow: 8px 8px 20px #053b17;
+    }
+
 }

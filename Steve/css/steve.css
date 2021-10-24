@@ -1,11 +1,22 @@
 body {
-    background-color: #f3f3f3;
+    background-color: #fff;
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    pointer-events: none;
+}
+
+h1,
+b,
+.jobs-quote q {
+    font-family: "SFPro-Semibold";
 }
 
 /* section */
 
 .steve-jobs-section {
-    max-width: 1600px;
+    max-width: 1920px;
     margin: 50.5px auto 0px auto;
 }
 
@@ -19,10 +30,21 @@ body {
     margin: 20px;
 }
 
+.steve-img {
+    text-align: center;
+    margin: 20px;
+}
+
 .steve-jobs-img img {
-    max-width: 100%;
+    max-width: 75%;
     border-radius: 15px;
-    box-shadow: 5px 5px 20px rgb(32, 32, 32);
+    box-shadow: 8px 8px 15px rgb(32, 32, 32);
+}
+
+.steve-img img {
+    max-width: 70%;
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px rgb(32, 32, 32);
 }
 
 .steve-jobs-text-heading h1 {
@@ -36,56 +58,150 @@ body {
 .steve-jobs-text-para p {
     padding: 10px;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 21px;
     font-weight: 500;
 }
 
 /* video */
 
 .steve-jobs-video {
-    background-color: #ffffff;
-    padding: 40px 20px 20px 20px;
-    margin: 20px 0px 10px 0px;
+    margin: 20px;
+    padding: 20px;
 }
 
-.steve-iframe-main {
-    padding: 56.25% 0 0 0;
-    position: relative;
+.steve-video {
+    padding: 10px;
+    text-align: center;
 }
 
-.inside-steve-iframe-main {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%
-}
-
-.inside-steve-iframe-main iframe{
+.steve-video video {
+    max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px #0f3642;
+    box-shadow: 8px 8px 15px rgb(32, 32, 32);
 }
 
-.video-caption{
+.video-caption {
     padding: 20px 10px;
 }
 
-.video-caption .caption{
+.video-caption .caption {
     padding: 10px 0px;
-    font-size: 1.2rem;
+    font-size: 21px;
     font-weight: 500;
 }
 
 /* last words */
 
-.jobs-last-words{
-    padding: 40px 20px;
+.learning-from-last-words-of-steve-jobs h1 {
+    text-align: center;
+    font-family: "SFPro-Semibold";
+    padding: 5px 20px 20px 20px;
+    font-size: 3rem;
+}
+
+.jobs-last-words {
+    padding: 10px 20px;
     background-color: #fff;
     margin: 20px 0px 10px 0px;
 }
 
-.jobs-last-words .words{
-font-size: 1.2rem;
-font-weight: 500;
-padding: 3px 0px;
+.jobs-last-words .words {
+    font-size: 21px;
+    font-weight: 500;
+    padding: 3px 0px;
+}
+
+.words {
+    font-size: 22px;
+}
+
+.steve-five-fact {
+    padding: 25px 5px;
+}
+
+.steve-five-fact-heading p {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 20px 0px;
+    font-family: "SFPro-Semibold";
+}
+
+.quote-by-jobs .jobs-quote q {
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 15px 0px;
+    font-family: "SFPro-Semibold";
+    text-align: center;
+    display: block;
+}
+
+.best-doctors-heading h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 0px;
+    font-family: "SFPro-Semibold";
+}
+
+.list-for-best-doctors {
+    padding: 0px 10px 0px 20px;
+}
+
+.list-for-best-doctors ol li {
+    font-size: 20px;
+}
+
+/* hr */
+.container-for-hr {
+    text-align: center;
+}
+
+hr {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* hr end */
+
+/* quotes by Steve Jobs */
+
+.jobs-quotes {
+    padding: 20px;
+}
+
+.jobs-quotes-heading h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px 10px 20px 10px;
+}
+
+.jobs-quote {
+    padding: 30px 10px;
+}
+
+.jobs-quote-para {
+    font-size: 29px;
+    padding: 5px 10px;
+}
+
+.jobs-quote-expanation {
+    font-size: 22px;
+    padding: 5px 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: "SFPro-Semibold";
+}
+
+.footer-div {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-div-span {
+    font-size: 18px;
+    font-family: "d";
+    font-family: "SFPro-Regular";
 }

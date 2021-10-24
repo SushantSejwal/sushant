@@ -251,18 +251,8 @@ html{
 
 /* Under Construction */
 
-.under-contruction{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/python-4785225.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-/* ============== */
-
 .under-construction {
-    height: calc(100vh - 60.8px);
+    height: auto;
     max-width: 1920px;
     margin: 50.8px auto 10px auto;
     display: grid;
@@ -285,4 +275,97 @@ html{
 
 .under-const-img img{
     max-width: 100%;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: "SFPro-Semibold";
+}
+
+.footer-div {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-div-span {
+    font-size: 18px;
+    font-family: "d";
+    font-family: "SFPro-Regular";
+}
+
+
+/* OR */
+.awesome {
+    max-width: 1920px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.awesome-not-complete p {
+    padding: 10px 20px;
+    font-family: "SFPro-Semibold";
+    font-size: 22px;
+    word-spacing: 2px;
+}
+
+.awesome-not-complete p a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.awesome-not-complete p a:hover {
+    text-decoration: underline;
+}
+
+/* enjoy */
+
+.or {
+    margin: 20px;
+    padding: 20px;
+}
+
+.or-heading p {
+    padding: 15px 20px 40px 20px;
+    font-family: "SFPro-Semibold";
+    font-size: 35px;
+}
+
+/* video */
+
+.or-video{
+    padding: 20px;
+    text-align: center;
+}
+
+.or-video video{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px #3b3b3b;
+}
+
+/* .or-video video poster{
+    max-width: 100%;
+} */
+
+@media only screen and (max-width:768px) {
+
+    .or-video{
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:800px) {
+
+    .or-video{
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .or-video video{
+        max-width: 78%;
+    }
+
 }

@@ -39,3 +39,9 @@ logo_svg_container.addEventListener("mouseover", () =>
 logo_svg_container.addEventListener("mouseleave", () =>
     svg_g.classList.remove("sushant_anshika")
 );
+
+const date = new Date(); //getting date
+const year = date.getFullYear(); //getting year
+
+const footer = document.getElementById("footer-div-span"); //getting footer by ID
+footer.innerHTML = 'Copyright &copy;' + ' ' + year + ' ' + 'Sushant. All rights reserved'; // footer messag

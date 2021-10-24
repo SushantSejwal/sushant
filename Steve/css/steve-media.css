@@ -1,23 +1,19 @@
 
 @media only screen and (max-width:768px) {
-    .iframe-1{
-        display: none;
+
+    .steve-jobs-img img{
+        max-width: 98%;
     }
-    .iframe-2{
-        display: block;
+
+    .steve-img img{
+        max-width: 95%;
     }
 }
 
 @media only screen and (min-width:769px) {
-    .iframe-1{
-        display: block;
-    }
-    .iframe-2{
-        display: none;
-    }
 
-    .container-for-steve-iframe-main{
-        max-width: 90%;
+    .steve-video{
+        max-width: 80%;
         text-align: center;
         margin: auto;
     }
@@ -25,6 +21,12 @@
     .video-caption{
         padding: 20px 20px;
     }
+
+    .jobs-last-words{
+        padding: 10px 40px;
+    }
+
+    
 }
 
 @media only screen and (min-width:900px){
@@ -64,4 +66,39 @@
     .video-caption{
         padding: 20px 50px;
     }
+}
+
+@media only screen and (max-width:520px){
+
+    .steve-jobs-video{
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .steve-img{
+        margin: 2px;
+    }
+
+    .steve-jobs-img{
+        margin: 5px;
+    }
+
+    .steve-jobs-text-para p{
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .steve-img{
+        margin: 5px;
+    }
+
+    .jobs-last-words .words {
+        padding: 10px 0px 3px 0px;
+        text-align: justify;
+    }
+
+    .jobs-quote-expanation, .words{
+        text-align: justify;
+    }
+
 }
