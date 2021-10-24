@@ -462,3 +462,53 @@
     }
 
 }
+
+@media only screen and (max-width:432px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 20px;
+    }
+
+    .footer-para-text {
+        margin: 0px 20px;
+    }
+
+}
+
+@media only screen and (max-width:412px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 15px;
+    }
+
+    .footer-para-text {
+        margin: 0px 15px;
+    }
+
+}
+
+@media only screen and (max-width:392px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 10px;
+    }
+
+    .footer-para-text {
+        margin: 0px 10px;
+    }
+
+}
+
+@media only screen and (max-width:372px) {
+
+    .link-tp-apple-svg {
+        margin: 0px 5px;
+        width: 14px;
+    }
+
+    .footer-para-text {
+        margin: 0px 5px;
+        font-size: 14px;
+    }
+
+}
