@@ -18,7 +18,7 @@ body {
 
 .number-system {
     padding: 10px 40px;
-    margin: 64px 10px 10px 10px;
+    margin: 64px 15px 10px 15px;
     border-radius: 15px;
     background: linear-gradient(90deg, hsla(176, 61%, 87%, 1) 0%, hsla(150, 54%, 86%, 1) 50%, rgb(226, 214, 226) 100%);
 }
@@ -190,8 +190,8 @@ body {
 }
 
 .sushant-python-container {
-    background: linear-gradient(90deg, hsla(0, 0%, 10%, 1) 0%, hsla(0, 0%, 14%, 1) 29%, hsla(0, 0%, 14%, 1) 60%, hsla(0, 0%, 13%, 1) 100%);
-    margin: 10px;
+    background: linear-gradient(225deg, hsla(0, 0%, 25%, 1) 0%, hsla(0, 0%, 24%, 1) 25%, hsla(0, 0%, 18%, 1) 50%, hsla(0, 1%, 18%, 1) 75%, hsla(0, 0%, 22%, 1) 100%);
+    margin: 15px;
     border-radius: 15px;
     /* min-height: 100vh; */
     max-height: auto;
@@ -287,7 +287,7 @@ body {
 
 .boolean-logic {
     background: linear-gradient(90deg, #000329 0%, #00458f 100%);
-    margin: 10px;
+    margin: 15px;
     border-radius: 15px;
 }
 
@@ -389,4 +389,99 @@ footer {
 .footer p {
     font-size: 16px;
     padding: 15px;
+}
+
+/* ================================= steve section ================================= */
+
+.sushant-section-steve {
+    margin: auto;
+    max-width: 1900px;
+}
+
+.sushant-steve-container {
+    background: linear-gradient(135deg, hsla(97, 63%, 66%, 1) 0%, hsla(96, 42%, 52%, 1) 25%, hsla(95, 42%, 53%, 1) 50%, hsla(93, 51%, 37%, 1) 75%, hsla(92, 67%, 31%, 1) 100%);
+    margin: 15px;
+    border-radius: 15px;
+    max-height: auto;
+    display: grid;
+    align-items: center;
+}
+
+.sushant-steve-heading {
+    text-align: center;
+}
+
+.sushant-steve-heading a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+.sushant-steve-heading a h1 {
+    text-align: center;
+    font-family: "howvetica";
+    font-size: 50px;
+    padding: 50px 40px 10px 40px;
+}
+
+@media only screen and (max-width:400px) {
+    .sushant-steve-heading a h1 {
+        font-size: 40px;
+    }
+}
+
+.sushant-steve-text {
+    text-align: center;
+}
+
+.sushant-steve-text a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+.sushant-steve-text a P {
+    text-align: center;
+    font-family: "SFProDisplayRegular";
+    font-size: 22px;
+    margin: 15px 30px;
+}
+
+.sushant-steve-anchor {
+    text-align: center;
+    padding: 20px;
+}
+
+.sushant-steve-anchor a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+    font-family: "SFProDisplayRegular";
+
+}
+
+.steve-anchor-span-text:hover {
+    text-decoration: underline;
+}
+
+.sushant-steve-img {
+    padding: 20px 20px 50px 20px;
+    text-align: center;
+}
+
+.sushant-steve-img img {
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #024e08;
+    transform: scale(100%);
+}
+
+.sushant-steve-img img:hover{
+    transform: scale(99%);
+    box-shadow: 0px 0px 20px #024e08;
+    transition: all .17s ease-in-out;
+}
+
+@media only screen and (max-width:900px) {
+    .sushant-steve-img img {
+        max-width: 80%;
+    }
 }
