@@ -1,6 +1,6 @@
 @font-face {
     font-family:"google";
-    src: url(../fonts/google.woff2);
+    src: url(../fonts/SF-Pro-Text-Heavy.otf);
 }
 
 @font-face {
@@ -24,41 +24,6 @@
 }
 
 @font-face {
-    font-family:"specify-black";
-    src: url(../fonts/specify-black.ttf)
-}
-
-@font-face {
-    font-family:"specify-normal-black";
-    src: url(../fonts/Specify-Normal-Black.ttf);
-}
-
-@font-face {
-    font-family:"specify-normal-bold";
-    src: url(../fonts/Specify-Normal-Bold.ttf);
-}
-
-@font-face {
     font-family:"bazooka";
     src: url(../fonts/Bazooka.woff);
-}
-
-@font-face {
-    font-family:"a";
-    src: url(../fonts/a.woff);
-}
-
-@font-face {
-    font-family:"b";
-    src: url(../fonts/b.woff);
-}
-
-@font-face {
-    font-family:"c";
-    src: url(../fonts/c.woff);
-}
-
-@font-face {
-    font-family:"d";
-    src: url(../fonts/d.woff);
 }

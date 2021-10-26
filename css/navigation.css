@@ -50,7 +50,7 @@
     max-height: 30px;
 }
 
-.main-item-a-svg g.sushant_anshika{
+.main-item-a-svg g.sushant_anshika {
     fill: #ffffff;
 }
 
@@ -63,7 +63,51 @@
 
 .other-items a:hover {
     color: white;
-    transition: color 0.25s ease-in-out;
+}
+
+/* ==== bullet svg ==== */
+
+.bullet-svg {
+    width: 33px;
+    height: 30px;
+    max-width: 33px;
+    max-height: 30px;
+    margin-top: 3px;
+    cursor: pointer;
+    margin: 7px 25px;
+}
+
+.bullet-audio-container{
+    opacity: 0;
+}
+
+@media only screen and (min-width:769px) {
+
+    .bullet-svg-g.sushant_bullet {
+        fill: #ffffff;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .bullet-svg-g.sushant_bullet_phone {
+        fill: #ffffff;
+    }
+
+    .bullet {
+        position: absolute;
+        right: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .bullet-svg {
+        margin: 3px 0px 0px 0px;
+    }
+
 }
 
 /* ======================= toggle button ======================= */
@@ -142,7 +186,7 @@
         display: block;
         font-size: 25px;
         letter-spacing: 1px;
-        margin:15px;
+        margin: 15px;
         text-transform: capitalize;
     }
 
@@ -208,7 +252,8 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(214, 214, 214);;
+    background: rgb(214, 214, 214);
+    ;
     box-shadow: inset 0.1px 0.1px 10px rgb(92, 92, 92);
 }
 

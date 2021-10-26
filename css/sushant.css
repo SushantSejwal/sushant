@@ -169,7 +169,7 @@ body {
 }
 
 .sushant-sejwal h1 {
-    font-family: "specify-normal-black";
+    font-family: "google";
     font-size: 70px;
     color: rgb(29, 28, 28);
 }
@@ -558,3 +558,5 @@ body {
         max-width: 80%;
     }
 }
+
+/* bullet */

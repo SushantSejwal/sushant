@@ -4,8 +4,7 @@ const ssss = document.querySelectorAll(".link"); const anchor = document.querySe
 const link_1 = document.querySelector(".link_1"); const link_2 = document.querySelector(".link_2");
 const link_3 = document.querySelector(".link_3"); const logo_svg_container = document.querySelector('.main-item-a-svg-container')
 const svg_g = document.querySelector('.main-logo-svg-g')
-const link_4 = document.querySelector(".link_4"); 
-// const link_5 = document.querySelector(".link_5"); 
+const link_4 = document.querySelector(".link_4");
 const apple = document.querySelector('.link-to-apple'); const apple_svg = document.querySelector('.link-to-apple-svg-g');
 
 button.addEventListener("click", () => { toggle(); }
@@ -33,24 +32,65 @@ function toggle() {
     link_4.classList.toggle("sushantsejwal"); 
 };
 
-// SVG
-
+// Site Logo
 logo_svg_container.addEventListener("mouseover", () => {
     svg_g.classList.add("sushant_anshika")
 });
-
 logo_svg_container.addEventListener("mouseleave", () =>{
     svg_g.classList.remove("sushant_anshika")
 });
 
+// Apple logo in footer
 apple.addEventListener("mouseover", () => {
     apple_svg.classList.add("apple_sushantanshika")
 });
-
 apple.addEventListener("mouseleave", () => {
     apple_svg.classList.remove("apple_sushantanshika")
 });
 
+// Bullet
+const bullet_audio = document.querySelector('.bullet-audio');
+const bullet = document.querySelector('.bullet-svg');
+const bullet_svg_g = document.querySelector('.bullet-svg-g');
+
+const media_phone = window.matchMedia('(max-width: 768px)')
+if (media_phone.matches) {
+
+    bullet.addEventListener("click", () => {
+
+        bullet_svg_g.classList.toggle("sushant_bullet_phone");
+        bullet_audio_toogle()
+
+    });
+
+    function bullet_audio_toogle() {
+
+        if (bullet_audio.paused) {
+            bullet_audio.play();
+        }
+        
+        else {
+            bullet_audio.pause();
+        }
+    };
+}
+
+else {
+
+    bullet.addEventListener("mouseover", () => {
+        
+        bullet_svg_g.classList.add("sushant_bullet");
+        bullet_audio.play();
+
+    });
+
+    bullet.addEventListener("mouseleave", () => {
+
+        bullet_svg_g.classList.remove("sushant_bullet");
+        bullet_audio.pause();
+
+    });
+}
 
 const d = new Date();
 const year = d.getFullYear();

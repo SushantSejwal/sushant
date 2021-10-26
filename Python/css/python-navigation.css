@@ -454,3 +454,48 @@ html{
     }
 
 }
+
+/* ==== bullet svg ==== */
+
+.bullet-svg {
+    width: 33px;
+    height: 30px;
+    max-width: 33px;
+    max-height: 30px;
+    margin-top: 3px;
+    cursor: pointer;
+    margin: 7px 25px;
+}
+
+.bullet-audio-container{
+    opacity: 0;
+}
+
+@media only screen and (min-width:769px) {
+
+    .bullet-svg-g.sushant_bullet {
+        fill: #ffffff;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .bullet-svg-g.sushant_bullet_phone {
+        fill: #ffffff;
+    }
+
+    .bullet {
+        position: absolute;
+        right: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .bullet-svg {
+        margin: 3px 0px 0px 0px;
+    }
+
+}

@@ -49,9 +49,52 @@ apple.addEventListener("mouseleave", () => {
     apple_svg.classList.remove("apple_sushantanshika")
 });
 
-
 const d = new Date();
 const year = d.getFullYear();
 
 const footer = document.getElementById('footer-para-text');
 footer.innerHTML = 'Copyright &copy;' + ' ' + year + ' ' + 'Sushant. All rights reserved';
+
+// Bullet
+const bullet_audio = document.querySelector('.bullet-audio');
+const bullet = document.querySelector('.bullet-svg');
+const bullet_svg_g = document.querySelector('.bullet-svg-g');
+
+const media_phone = window.matchMedia('(max-width: 768px)')
+if (media_phone.matches) {
+
+    bullet.addEventListener("click", () => {
+
+        bullet_svg_g.classList.toggle("sushant_bullet_phone");
+        bullet_audio_toogle()
+
+    });
+
+    function bullet_audio_toogle() {
+
+        if (bullet_audio.paused) {
+            bullet_audio.play();
+        }
+        
+        else {
+            bullet_audio.pause();
+        }
+    };
+}
+
+else {
+
+    bullet.addEventListener("mouseover", () => {
+        
+        bullet_svg_g.classList.add("sushant_bullet");
+        bullet_audio.play();
+
+    });
+
+    bullet.addEventListener("mouseleave", () => {
+
+        bullet_svg_g.classList.remove("sushant_bullet");
+        bullet_audio.pause();
+
+    });
+}
