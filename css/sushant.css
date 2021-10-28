@@ -95,7 +95,7 @@ body {
     text-align: center;
     margin: auto auto 30px auto;
     transform: scale(100%);
-    transition: all .17s ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .number-system-img a img:hover {
@@ -264,6 +264,7 @@ body {
     border-radius: 20px;
     box-shadow: 0px 0px 30px #00070A;
     transform: scale(100%);
+    transition: all .15s ease-in-out;
 }
 
 .sushant-python-img img:hover {
@@ -366,6 +367,7 @@ body {
 .boolean-logic-img img:hover {
     box-shadow: 0px 0px 20px #0d1111;
     transform: scale(99%);
+    transition: all .15s ease-in-out;
 }
 
 @media only screen and (max-width:900px) {
@@ -545,6 +547,7 @@ body {
     border-radius: 20px;
     box-shadow: 0px 0px 30px #024e08;
     transform: scale(100%);
+    transition: all .15s ease-in-out;
 }
 
 .sushant-steve-img img:hover {
