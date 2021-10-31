@@ -40,23 +40,23 @@ function toggle() {
 
 // Site Logo
 logo_svg_container.addEventListener("mouseover", () => {
-    svg_g.classList.add("sushant_anshika")
+    svg_g.classList.add("sushant_awesome")
 });
 logo_svg_container.addEventListener("mouseleave", () =>{
-    svg_g.classList.remove("sushant_anshika")
+    svg_g.classList.remove("sushant_awesome")
 });
 
 // Apple logo in footer
 apple.addEventListener("mouseover", () => {
-    apple_svg.classList.add("apple_sushantanshika")
+    apple_svg.classList.add("apple_sushant")
 });
 apple.addEventListener("mouseleave", () => {
-    apple_svg.classList.remove("apple_sushantanshika")
+    apple_svg.classList.remove("apple_sushant")
 });
 
 // footer
-const d = new Date();
-const year = d.getFullYear();
+const today = new Date();
+const year = today.getFullYear();
 
 const footer = document.getElementById('footer-para-text');
 footer.innerHTML = 'Copyright &copy;' + ' ' + year + ' ' + 'Sushant. All rights reserved';
@@ -68,24 +68,35 @@ const bullet_svg_g = document.querySelector('.bullet-svg-g');
 
 const media_phone = window.matchMedia('(max-width: 768px)')
 if (media_phone.matches) {
-
-    bullet.addEventListener("click", () => {
-
-        bullet_svg_g.classList.toggle("sushant_bullet_phone");
-        bullet_audio_toogle()
-
-    });
-
     function bullet_audio_toogle() {
 
         if (bullet_audio.paused) {
             bullet_audio.play();
         }
-        
+
         else {
             bullet_audio.pause();
         }
     };
+
+    function bullet_svg_grey() {
+        if (bullet_audio.paused) {
+            bullet_svg_g.classList.remove("sushant_bullet_phone");
+        }
+    }
+
+    function bullet_svg_white() {
+        if (bullet_audio.played) {
+            bullet_svg_g.classList.add("sushant_bullet_phone");
+        }
+    }
+    
+    bullet.addEventListener("click", () => {
+        bullet_svg_white();
+        bullet_audio_toogle();
+        bullet_svg_grey();
+
+    });
 }
 
 else {

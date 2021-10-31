@@ -55,24 +55,35 @@ const bullet_svg_g = document.querySelector('.bullet-svg-g');
 
 const media_phone = window.matchMedia('(max-width: 768px)')
 if (media_phone.matches) {
-
-    bullet.addEventListener("click", () => {
-
-        bullet_svg_g.classList.toggle("sushant_bullet_phone");
-        bullet_audio_toogle()
-
-    });
-
     function bullet_audio_toogle() {
 
         if (bullet_audio.paused) {
             bullet_audio.play();
         }
-        
+
         else {
             bullet_audio.pause();
         }
     };
+
+    function bullet_svg_grey() {
+        if (bullet_audio.paused) {
+            bullet_svg_g.classList.remove("sushant_bullet_phone");
+        }
+    }
+
+    function bullet_svg_white() {
+        if (bullet_audio.played) {
+            bullet_svg_g.classList.add("sushant_bullet_phone");
+        }
+    }
+    
+    bullet.addEventListener("click", () => {
+        bullet_svg_white();
+        bullet_audio_toogle();
+        bullet_svg_grey();
+
+    });
 }
 
 else {
@@ -97,6 +108,7 @@ const year = d.getFullYear();
 
 const footer = document.getElementById('footer-para-text');
 footer.innerHTML = 'Copyright &copy;' + ' ' + year + ' ' + 'Sushant. All rights reserved';
+
 // from 
 
 var form = document.getElementById('sheetdb-form');

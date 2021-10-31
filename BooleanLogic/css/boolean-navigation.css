@@ -1,22 +1,8 @@
-/* ====== FONTS ====== */
-@font-face {
-    font-family: "Howvetica";
-    src: url(font/Howvetica-Aayp.ttf);
-}
+/* body */
 
-@font-face {
-    font-family: "SFPro-Regular";
-    src: url(font/SFProDisplay-Regular.ttf);
-}
-
-@font-face {
-    font-family: "SFPro-Semibold";
-    src: url(font/SFProDisplay-Semibold.ttf);
-}
-
-@font-face {
-    font-family: "uni-sans";
-    src: url(font/uni-sans-heavy-caps.otf);
+body{
+    background-color: #CBF3F0;
+    min-width: 300px;
 }
 
 /* ======================= For All ======================= */
@@ -24,7 +10,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "SFPro-Regular";
+    font-family: "SF-text-regular" ;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -38,6 +24,7 @@
     left: 0;
     background-color: rgb(43, 41, 41);
     z-index: 9;
+    font-family: "SFPro-Regular" ;
 }
 
 /* ======================= Nav Items ======================= */
@@ -46,6 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "SFPro-Regular" ;
 }
 
 .nav-items {
@@ -53,12 +41,14 @@
     align-items: center;
     justify-content: center;
     list-style: none;
+    font-family: "SFPro-Regular";
 }
 
 .all-other-items {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "SFPro-Regular";
 }
 
 .list {
@@ -149,6 +139,7 @@
         left: 0;
         background-color: rgb(43, 41, 41);
         height: 100vh;
+        min-height: 100vh;
         text-align: center;
         overflow: auto;
     }
@@ -213,6 +204,12 @@
 
 }
 
+@media only screen and (max-height:330px) {
+    .all-other-items{
+    min-height: -webkit-fill-available;
+    }
+}
+
 /* ======================= Scroll Bar ======================= */
 
 /* width */
@@ -242,9 +239,15 @@
 
 .footer {
     background-color: rgb(29, 28, 28);
-    color: white;
+    color: #fff;
     text-align: center;
     margin-top: auto;
+    font-family: "SFPro-Regular";
+}
+
+footer p{
+    color: #fff;
+    font-family: "SFPro-Regular";
 }
 
 .footer-para {
@@ -253,10 +256,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "SFPro-Regular";
 }
 
 .footer-para-text {
     margin: 0px 25px;
+    font-family: "SFPro-Regular" ;
 }
 
 /* link to apple */

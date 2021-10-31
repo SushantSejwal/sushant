@@ -32,7 +32,7 @@ body {
 
 .number-system-heading a h1 {
     text-align: center;
-    font-family: "howvetica";
+    font-family: "SF-black";
     font-size: 50px;
     margin: 30px 40px 15px 40px;
 }
@@ -58,7 +58,7 @@ body {
 
 .number-system-text a p {
     text-align: center;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
     font-size: 24px;
     margin: 15px 40px;
 }
@@ -111,7 +111,7 @@ body {
 /* ================================= starting section ================================= */
 
 .sushant-section-container {
-    padding: 60px 50px 25px 50px;
+    padding: 40px 50px 25px 50px;
 }
 
 .sushant-section {
@@ -133,16 +133,16 @@ body {
 .sushant-image img {
     display: block;
     margin: auto;
-    max-width: 300px;
+    max-width: 320px;
     border-radius: 2222px;
-    box-shadow: 0px 0px 10px rgb(94, 89, 89);
+    box-shadow: 0px 2px 15px rgb(94, 89, 89);
     pointer-events: none;
 }
 
 .sushant-awesome {
     text-align: center;
     color: rgb(44, 42, 42);
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
     font-size: 22px;
     margin-top: 20px;
     padding: 20px;
@@ -169,7 +169,7 @@ body {
 }
 
 .sushant-sejwal h1 {
-    font-family: "google";
+    font-family: "SF-black" ;
     font-size: 70px;
     color: rgb(29, 28, 28);
 }
@@ -210,7 +210,7 @@ body {
 
 .sushant-python-heading a h1 {
     text-align: center;
-    font-family: "howvetica";
+    font-family: "SF-black" ;
     font-size: 50px;
     padding: 50px 40px 10px 40px;
 }
@@ -232,7 +232,7 @@ body {
 
 .sushant-python-text a P {
     text-align: center;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
     font-size: 22px;
     margin: 15px 30px;
 }
@@ -246,7 +246,7 @@ body {
     text-decoration: none;
     color: rgb(235, 226, 226);
     font-size: 20px;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
 
 }
 
@@ -305,7 +305,7 @@ body {
 
 .boolean-logic-heading a h1 {
     font-size: 50px;
-    font-family: "howvetica";
+    font-family: "SF-black" ;
     padding: 50px 40px 10px 40px;
 }
 
@@ -328,7 +328,7 @@ body {
 
 .boolean-logic-text a p {
     font-size: 22px;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
     padding: 15px 30px;
 }
 
@@ -408,7 +408,7 @@ body {
     fill: #dadada;
 }
 
-.link-to-apple-svg-g.apple_sushantanshika {
+.link-to-apple-svg-g.apple_sushant {
     fill: #ffffff;
 }
 
@@ -493,7 +493,7 @@ body {
 
 .sushant-steve-heading a h1 {
     text-align: center;
-    font-family: "howvetica";
+    font-family: "SF-black" ;
     font-size: 50px;
     padding: 50px 40px 10px 40px;
 }
@@ -515,7 +515,7 @@ body {
 
 .sushant-steve-text a P {
     text-align: center;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
     font-size: 22px;
     margin: 15px 30px;
 }
@@ -529,7 +529,7 @@ body {
     text-decoration: none;
     color: rgb(26, 26, 26);
     font-size: 20px;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
 
 }
 
@@ -561,5 +561,3 @@ body {
         max-width: 80%;
     }
 }
-
-/* bullet */

@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:sans-serif;
+    font-family: "SF-text-regular" ;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -84,7 +84,7 @@
     color: rgb(218, 218, 218);
     text-decoration: none;
     font-size: 18px;
-    font-family:"SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
 }
 
 .other-items a:hover {
@@ -253,7 +253,7 @@ td {
     color: white;
     text-align: center;
     margin-top: auto;
-    font-family:"SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
 }
 
 .footer-para {
@@ -266,7 +266,7 @@ td {
 
 .footer-para-text {
     margin: 0px 25px;
-    font-family:"SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
 }
 
 /* link to apple */

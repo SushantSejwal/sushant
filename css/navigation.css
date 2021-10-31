@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -50,7 +50,7 @@
     max-height: 30px;
 }
 
-.main-item-a-svg g.sushant_anshika {
+.main-item-a-svg g.sushant_awesome {
     fill: #ffffff;
 }
 
@@ -58,7 +58,7 @@
     color: rgb(218, 218, 218);
     text-decoration: none;
     font-size: 18px;
-    font-family: "SFProDisplayRegular";
+    font-family: "SFPro-Regular" ;
 }
 
 .other-items a:hover {

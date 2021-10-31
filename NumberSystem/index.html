@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="preload" href="css/fonts.css" as="style" />
     <link rel="stylesheet" href="css/ns.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/media.css">
@@ -22,11 +23,17 @@
     <link rel="mask-icon" href="img/favicon.svg">
     <link rel="canonical" href="https://sushantsejwal.github.io/sushant/NumberSystem/" />
 
-    <link rel="preload" href="/fonts/Bazooka.woff" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="/fonts/Howvetica-Aayp.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="/fonts/SFProDisplay-Regular.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="/fonts/SFProDisplay-Semibold.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="/fonts/uni-sans-heavy-caps.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="../font/Bazooka.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Display-Black.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Display-Bold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Display-Heavy.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Display-Medium.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SFProDisplay-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Display-Semibold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Rounded-Bold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Rounded-Heavy.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Rounded-Black.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="../font/SF-Pro-Text-Regular.woff" as="font" type="font/woff" crossorigin>
 
 </head>
 
@@ -1585,13 +1592,14 @@
         <div class="form-div">
             <div class="form-div-intro">
                 <h1>Contact me</h1>
+                <p class="form-text">Any question, problem, suggestion then, type it below and send it.</p>
             </div>
             <div class="form-div-from">
                 <form id="sheetdb-form" action="https://sheetdb.io/api/v1/062ykrea05dnb" method="POST" class="form" autocomplete="off">
                     <input type="text" name="data[Name]" id="name" required placeholder=" Name"><br>
                     <input type="email" name="data[Email]" id="email" required placeholder=" Email"><br>
                     <textarea name="data[Message]" cols="30" rows="10" required placeholder="type your message and send it"></textarea><br>
-                    <input type="hidden" name="data[Hidden]" value="sushant">
+                    <input type="hidden" name="data[Hidden]" value="Number System">
                     <button type="submit">Send it to Sushant</button>
                 </form>
             </div>
