@@ -385,7 +385,7 @@ table td {
 
 .truth-table-example-question-p b {
     font-size: 22px;
-    font-family: "SF-Semibold";
+    font-family: "SFPro-Semibold" ;
     color: #000;
 }
 
@@ -394,7 +394,7 @@ table td {
 }
 
 p.precedence-for-solving-operators-heading-text {
-    font-family: "SF-Semibold";
+    font-family: "SFPro-Semibold" ;
     padding: 15px 0px;
     font-size: 23px;
     font-weight: 900;
@@ -468,6 +468,15 @@ p.precedence-for-solving-expression-heading-text {
     padding: 10px 0px 20px 0px;
 }
 
+.gate-symbol-text-span {
+    text-align: center;
+    display: block;
+    padding: 10px 10px 22px 10px;
+    font-family: "SFPro-Semibold" ;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 @media only screen and (min-width:769px) {
 
     .gate-symbol {
@@ -481,7 +490,7 @@ p.precedence-for-solving-expression-heading-text {
         text-align: center;
         display: block;
         padding: 10px 10px 22px 10px;
-        font-family: "SF-Semibold";
+        font-family: "SFPro-Semibold" ;
         font-weight: 700;
         font-size: 20px;
     }
@@ -612,7 +621,7 @@ p.precedence-for-solving-expression-heading-text {
 
 .de-morgan-heading {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .de-morgan-heading-h1 {
@@ -625,7 +634,7 @@ p.precedence-for-solving-expression-heading-text {
 
 .de-morgan-about-morgan-text {
     font-size: 20px;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 20px 20px 20px;
     color: #fff;
 }
 
