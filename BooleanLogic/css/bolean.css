@@ -621,15 +621,21 @@ p.precedence-for-solving-expression-heading-text {
 
 .de-morgan-heading {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
-    padding: 20px 0px;
+    padding: 20px 15px;
 }
 
 .de-morgan-heading-h1 {
     font-size: 3.1rem;
     font-family: "SF-Heavy";
     text-align: center;
-    padding: 25px 5px 5px 5px;
+    padding: 25px 0px 5px 0px;
     color: white;
+}
+
+@media only screen and (max-width:450px) {
+    .de-morgan-heading-h1 {
+        font-size: 2.9rem;
+    }
 }
 
 .de-morgan-about-morgan-text {
@@ -651,7 +657,7 @@ p.precedence-for-solving-expression-heading-text {
 .de-morgan-law-1-equation-text,
 .de-morgan-law-1-equation-text span {
     font-size: 19px;
-    padding: 0px 10px;
+    padding: 0px 20px;
     font-weight: 900;
 }
 
