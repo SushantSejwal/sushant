@@ -1,23 +1,4 @@
-/* ====== FONTS ====== */
-@font-face {
-    font-family: "Howvetica" ;
-    src: url(font/Howvetica-Aayp.ttf);
-}
 
-@font-face {
-    font-family: "SFPro-Regular" ;
-    src: url(font/SFProDisplay-Regular.ttf);
-}
-
-@font-face {
-    font-family: "SFPro-Semibold" ;
-    src: url(font/SFProDisplay-Semibold.ttf);
-}
-
-@font-face {
-    font-family: "uni-sans" ;
-    src: url(font/uni-sans-heavy-caps.otf);
-}
 
 /* ======================= For All ======================= */
 
