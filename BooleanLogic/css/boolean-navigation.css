@@ -25,6 +25,7 @@ body{
     background-color: rgb(43, 41, 41);
     z-index: 9;
     font-family: "SFPro-Regular" ;
+    box-shadow: 0px 2px 10px black;
 }
 
 /* ======================= Nav Items ======================= */
