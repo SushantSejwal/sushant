@@ -1,24 +1,3 @@
-/* ====== FONTS ====== */
-@font-face {
-    font-family: "Howvetica" ;
-    src: url(font/Howvetica-Aayp.ttf);
-}
-
-@font-face {
-    font-family: "SFPro-Regular" ;
-    src: url(font/SFProDisplay-Regular.ttf);
-}
-
-@font-face {
-    font-family: "SFPro-Semibold" ;
-    src: url(font/SFProDisplay-Semibold.ttf);
-}
-
-@font-face {
-    font-family: "uni-sans" ;
-    src: url(font/uni-sans-heavy-caps.otf);
-}
-
 /* ======================= For All ======================= */
 
 * {
@@ -38,7 +17,6 @@
     left: 0;
     background-color: rgb(43, 41, 41);
     z-index: 9;
-    box-shadow: 0px 2px 10px black;
 }
 
 /* ======================= Nav Items ======================= */
@@ -250,40 +228,8 @@ html{
     -webkit-tap-highlight-color: transparent;
 }
 
-/* Under Construction */
 
-.under-construction {
-    height: auto;
-    max-width: 1920px;
-    margin: 50.8px auto 10px auto;
-    display: grid;
-    place-items: center;
-    align-items: center;
-}
-
-.under-const-grid,
-.under-const {
-    display: grid;
-    place-items: center;
-    align-items: center;
-}
-
-.under-const-heading h1 {
-    font-size: 3rem;
-    font-family: "SFPro-Semibold";
-    word-wrap: break-word;
-}
-
-.under-const-img img{
-    max-width: 100%;
-}
-
-/* Footer */
-.footer {
-    background-color: rgb(43, 43, 43);
-    color: white;
-    font-family: "SFPro-Semibold";
-}
+/* =============================== Footer =============================== */
 
 .footer-div {
     padding: 15px;
@@ -292,81 +238,8 @@ html{
 
 .footer-div-span {
     font-size: 18px;
-    font-family: "d";
     font-family: "SFPro-Regular";
 }
-
-
-/* OR */
-.awesome {
-    max-width: 1920px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.awesome-not-complete p {
-    padding: 10px 20px;
-    font-family: "SFPro-Semibold";
-    font-size: 22px;
-    word-spacing: 2px;
-}
-
-.awesome-not-complete p a {
-    text-decoration: none;
-    color: #0066cc;
-}
-
-.awesome-not-complete p a:hover {
-    text-decoration: underline;
-}
-
-/* enjoy */
-
-.or {
-    margin: 20px;
-    padding: 20px;
-}
-
-.or-heading p {
-    padding: 15px 20px 40px 20px;
-    font-family: "SFPro-Semibold";
-    font-size: 35px;
-}
-
-/* video */
-
-.or-video{
-    padding: 20px;
-    text-align: center;
-}
-
-.or-video video{
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 8px 8px 20px #3b3b3b;
-}
-
-@media only screen and (max-width:768px) {
-
-    .or-video{
-        padding: 5px;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width:800px) {
-
-    .or-video{
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .or-video video{
-        max-width: 78%;
-    }
-
-}
-/* =============================== Footer =============================== */
 
 .footer {
     background-color: rgb(29, 28, 28);

@@ -109,3 +109,44 @@ else {
 
     });
 }
+
+
+// anitek audio
+
+const ferrari_img = document.querySelector(".ferrari-img")
+const anitek_audio = document.querySelector(".anitek-audio")
+
+ferrari_img.addEventListener("click", () =>{
+    anitek_audio_toggle()
+    RR_audio.pause()
+});
+
+function anitek_audio_toggle() {
+    if (anitek_audio.paused){
+        anitek_audio.play()
+    }
+    else{
+        anitek_audio.pause();
+        RR_audio.pause()
+    }
+}
+
+// RR audio
+
+const RR_img = document.querySelector(".rr-img")
+const RR_audio = document.querySelector(".rr-audio")
+
+RR_img.addEventListener("click", () =>{
+    rr_audio_toggle();
+    anitek_audio.pause();
+});
+
+function rr_audio_toggle() {
+    if (RR_audio.paused){
+        RR_audio.play()
+    }
+    else{
+        RR_audio.pause();
+        anitek_audio.pause();
+    }
+}
