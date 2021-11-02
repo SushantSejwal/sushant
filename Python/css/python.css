@@ -285,7 +285,7 @@
 .fact-about-rolls-royce {
     max-width: 990px;
     margin: auto;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .rr-fact {
@@ -366,4 +366,12 @@
         padding: 0% 5% 5% 5%;
     }
 
+}
+
+.rr-fact-ending{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    margin: 20px 20px 0px 20px;
+    box-shadow: 5px 5px 20px rgb(160, 160, 160);
 }
