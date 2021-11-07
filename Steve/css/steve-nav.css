@@ -126,14 +126,14 @@
         transform: scale(1, 0);
         transition: all 0.4s ease-in-out;
         transform-origin: top;
-        position: absolute;
+        position: fixed;
         top: 40px;
         right: 0;
         left: 0;
+        bottom: 0;
         background-color: rgb(43, 41, 41);
-        height: 100vh;
         text-align: center;
-        overflow: auto;
+        overflow-y: scroll;
     }
 
     .all-other-items.sushantsejwal {
@@ -145,7 +145,7 @@
         display: block;
         font-size: 25px;
         letter-spacing: 1px;
-        margin:15px;
+        margin: 15px;
         text-transform: capitalize;
     }
 
@@ -172,27 +172,32 @@
         transition: opacity 0.1s ease-in-out;
     }
 
-    /* ======= */
+    /* ====== */
 
     .link_1.sushantsejwal {
         opacity: 1;
-        transition: opacity 0.65s ease-in-out;
+        transition: opacity 0.8s ease-in-out;
+        transition-delay: .1s;
     }
 
     .link_2.sushantsejwal {
         opacity: 1;
-        transition: opacity 0.75s ease-in-out;
+        transition: opacity 0.8s ease-in-out;
+        transition-delay: .18s;
     }
 
     .link_3.sushantsejwal {
         opacity: 1;
         transition: opacity 0.8s ease-in-out;
+        transition-delay: .24s;
     }
 
     .link_4.sushantsejwal {
         opacity: 1;
-        transition: opacity 0.85s ease-in-out;
+        transition: opacity 0.8s ease-in-out;
+        transition-delay: .28s;
     }
+
 }
 
 /* ======================= Scroll Bar ======================= */

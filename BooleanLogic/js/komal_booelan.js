@@ -119,6 +119,6 @@ form.addEventListener("submit", e => {
     fetch(form.action, { 
         method: "POST", body: new FormData(document.getElementById("sheetdb-form")), 
     }).then(response => response.json()).then((html) => { 
-        location.reload() 
+        form.reset() 
     });
 });

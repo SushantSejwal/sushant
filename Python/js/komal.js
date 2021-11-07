@@ -89,7 +89,8 @@ if (media_phone.matches) {
         bullet_svg_white();
         bullet_audio_toogle();
         bullet_svg_grey();
-
+        RR_audio.pause();
+        anitek_audio.pause();
     });
 }
 
@@ -99,6 +100,8 @@ else {
         
         bullet_svg_g.classList.add("sushant_bullet");
         bullet_audio.play();
+        RR_audio.pause();
+        anitek_audio.pause();
 
     });
 
@@ -119,6 +122,7 @@ const anitek_audio = document.querySelector(".anitek-audio")
 ferrari_img.addEventListener("click", () =>{
     anitek_audio_toggle()
     RR_audio.pause()
+    bullet_audio.pause();
 });
 
 function anitek_audio_toggle() {
@@ -139,6 +143,7 @@ const RR_audio = document.querySelector(".rr-audio")
 RR_img.addEventListener("click", () =>{
     rr_audio_toggle();
     anitek_audio.pause();
+    bullet_audio.pause();
 });
 
 function rr_audio_toggle() {

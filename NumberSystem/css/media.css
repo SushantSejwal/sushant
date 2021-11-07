@@ -13,90 +13,6 @@
     }
 }
 
-@media only screen and (max-width:330px) {
-    .all-other-items {
-        height: 105vh;
-    }
-}
-
-@media only screen and (max-width:317px) {
-    .all-other-items {
-        height: 110vh;
-    }
-}
-
-@media only screen and (max-width:305px) {
-    .all-other-items {
-        height: 115vh;
-    }
-}
-
-@media only screen and (max-width:300px) {
-    .all-other-items {
-        height: 120vh;
-    }
-}
-
-@media only screen and (max-width:290px) {
-    .all-other-items {
-        height: 125vh;
-    }
-}
-
-@media only screen and (max-width:270px) {
-    .all-other-items {
-        height: 130vh;
-    }
-}
-
-@media only screen and (max-width:260px) {
-    .all-other-items {
-        height: 135vh;
-    }
-}
-
-@media only screen and (max-width:250px) {
-    .all-other-items {
-        height: 140vh;
-    }
-}
-
-@media only screen and (max-width:240px) {
-    .all-other-items {
-        height: 145vh;
-    }
-}
-
-@media only screen and (max-width:230px) {
-    .all-other-items {
-        height: 150vh;
-    }
-}
-
-@media only screen and (max-width:220px) {
-    .all-other-items {
-        height: 155vh;
-    }
-}
-
-@media only screen and (max-width:210px) {
-    .all-other-items {
-        height: 160vh;
-    }
-}
-
-@media only screen and (max-width:200px) {
-    .all-other-items {
-        height: 175vh;
-    }
-}
-
-@media only screen and (max-width:190px) {
-    .all-other-items {
-        height: 190vh;
-    }
-}
-
 @media only screen and (max-width:768px) {
     .ds-to-bn-example-1-solution-img-span {
         padding: 0px;
@@ -415,7 +331,7 @@
     .examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-1,
     .examples-for-ds-to-os-decimal-to-binary-explanation-text-steps-2 {
         max-width: 80%;
-        margin: 10px auto;
+        margin: 20px auto;
     }
 
 }
@@ -447,6 +363,10 @@
     .hstbs-hexadecimal-to-binary-example-fraction {
         max-width: 80%;
         margin: 10px auto;
+    }
+
+    .bstos-bs-to-os-method-method-1-example-fraction{
+        margin-top: 25px;
     }
 
 }

@@ -161,6 +161,12 @@
     background-position: center;
 }
 
+@media only screen and (min-width:1921px) {
+    .rolls-royce-background {
+        background-size: 1920px;
+        min-height: 1081px;
+    }
+}
 @media only screen and (max-width:1920px) {
     .rolls-royce-background {
         background-size: 1920px;
@@ -339,7 +345,7 @@
 
 }
 
-.iframe iframe {
+.iframe video {
     position: absolute;
     top: 0;
     left: 0;
